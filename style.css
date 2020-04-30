@@ -1,0 +1,707 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+body{
+    height: 2500px;
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: white;
+    font-family: "Raleway";
+}
+
+.upperBlock{
+    min-height: 745px;
+    background: linear-gradient(45deg, rgba(26,231,192,0.95),rgba(14,186,193,0.95));
+
+
+    
+}
+
+.gradientForUpperBlock{
+
+    background-image: url(/images/bg2.png);
+
+}
+@media screen and (min-width: 1024px){
+  nav{
+      
+    width: 80%;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8vh;
+  padding-top: 40px;
+  height: 50px;
+}
+.logo{
+  color: #FAFAFA;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 35%;
+  /* height: 50px; */
+}
+.nav-links li{
+  list-style: none;
+
+
+}
+.nav-links a{
+  text-decoration: none;
+  color: #FAFAFA;
+  letter-spacing: 3px;
+  font-size: 15px;
+
+
+}
+.burger{
+  display: none;
+  cursor: pointer;
+}
+.burger div{
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 5px;
+  transition: all 0.3s ease;
+}
+.signIn_signUp{
+    display: inline-block;
+    display: flex;
+    width: auto;
+    
+   
+}
+.signIn, .signUp{
+    font-size: 14px;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 17px 5px 17px;
+    margin-right: 20px;
+}
+.signIn_signUp a{
+  color: white;
+}
+
+.title_and_txt_and_buttons{
+  margin-top: 160px;
+  
+  display: inline-block;
+}
+.title_and_txt_and_buttons p{
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.buttons{
+  margin-top: 40px;
+}
+.title_and_txt_and_buttons button{
+  appearance: none;
+background: none;
+outline: none;
+padding: .9rem 1.3rem;
+border-radius: 4px;
+color: white;
+font-size: 1.2rem;
+transition: 0.5s ease;
+font-family: "Raleway";
+box-shadow: 4px 6px 5px rgba(0,0,0,0.2);
+}
+
+.title_and_txt_and_buttons .button1{
+  background-color: rgb(6, 30, 55);
+  border: 3px solid black;
+  margin-right: 25px;
+}
+.title_and_txt_and_buttons .button2{
+  background-color: white;
+  border: 3px solid white;
+  color: black;
+}
+.video{
+  
+  width: 585px;
+  height: 315px;
+  display: inline-block;
+  margin-top: 160px;
+  
+}
+.belowNavbar{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*next part of page */
+.easy_useful{
+  min-height: 800px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+.easy_useful__title_and_txt{
+  margin: 90px auto;
+  width: 80%;
+  line-height: 1.4;
+}
+.easy_useful__title_and_txt h2{
+  margin: 15px;
+  font-size: 2em;
+}
+.easy_useful__title_and_txt h4{
+  margin: 15px;
+  font-size: 1.2em;
+  color: rgba(117, 117, 117, 0.726);
+}
+.easy_useful__title_and_txt p{
+  font-size: 18px;
+  color: rgba(117, 117, 117, 0.726);
+
+}
+.easy_useful__blocks{
+  width: 90%;
+ 
+  margin: 0 auto;
+  min-height: 240px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.easy_useful_block{
+  display: inline-block;
+  
+  width: auto;
+  
+  
+}
+
+.easy_useful_block p{
+  font-size: 15px;
+  line-height: 1.5;
+}
+.easy_useful_block h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.easy_useful__getStarted{
+  margin: 30px auto;
+  background-color: rgb(29, 233, 182);
+  border: 2px solid rgb(29, 233, 182);
+  color: #FAFAFA;
+  padding: 12px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  appearance: none;
+  outline: none;
+}
+
+/*numbers*/
+.numbers{
+  width: 100%;
+  min-height: 150px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #FAFAFA;
+  font-weight: 800;
+  text-align: center;
+  
+}
+.numbers>div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 4%;
+  
+}
+.numbers img{
+  background-color: #FAFAFA;
+  width: 50px;
+  height: 50px;
+  
+
+  border-radius: 100%;
+  margin-right: 20px;
+  
+}
+.numbers__business{
+  background-color: rgb(128, 216, 255);
+  width: 25%;
+
+}
+.numbers__downloads{
+  background-color: rgb(137, 177, 255);
+  width: 25%;
+  
+}
+.numbers__installs{
+  background-color: rgb(179, 136, 255);
+  width: 25%;
+
+}
+.numbers__users{
+  background-color: rgb(234, 128, 252);
+  width: 25%;
+
+
+}
+
+.service{
+  color: black;
+  text-align: center;
+  margin-top: 90px;
+  min-height: 870px;
+}
+.service h2{
+  margin: 15px;
+  font-size: 2em;
+}
+.service p{
+  font-size: 18px;
+  color: rgba(117, 117, 117, 0.726);
+}
+.footer{
+  min-height: 290px;
+  background-color: rgb(6,30,55);
+}
+.footer-logo{
+  vertical-align: middle;
+}
+}
+@media screen and (max-width: 1024px) and (min-width: 768px){
+  /*numbers*/
+.numbers{
+  width: 100%;
+  min-height: 150px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  color: #FAFAFA;
+  font-weight: 800;
+  text-align: center;
+  
+}
+.numbers>div{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 4%;
+  
+}
+.numbers img{
+  background-color: #FAFAFA;
+  width: 50px;
+  height: 50px;
+  
+
+  border-radius: 100%;
+  margin-right: 20px;
+  
+}
+.numbers__business{
+  background-color: rgb(128, 216, 255);
+  width: 25%;
+
+}
+.numbers__downloads{
+  background-color: rgb(137, 177, 255);
+  width: 25%;
+  
+}
+.numbers__installs{
+  background-color: rgb(179, 136, 255);
+  width: 25%;
+
+}
+.numbers__users{
+  background-color: rgb(234, 128, 252);
+  width: 25%;
+
+
+}
+}
+
+
+  @media screen and (max-width: 1024px) {
+    .nav-links{
+      width: 60%;
+    }
+    
+  
+    nav{
+      
+      width: 93%;
+      margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    padding-top: 40px;
+    height: 50px;
+  }
+
+  .nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    /* height: 50px; */
+  }
+  .nav-links li{
+    list-style: none;
+    margin: 0 10px 0 10px;
+  
+  }
+  .nav-links a{
+    text-decoration: none;
+    color: #FAFAFA;
+    letter-spacing: 2px;
+    font-size: 15px;
+  
+  
+  }
+  /*next part of page */
+.easy_useful{
+  min-height: 800px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: black;
+}
+.easy_useful__title_and_txt{
+  margin: 90px auto;
+  width: 80%;
+  line-height: 1.4;
+}
+.easy_useful__title_and_txt h2{
+  margin: 15px;
+  font-size: 2em;
+}
+.easy_useful__title_and_txt h4{
+  margin: 15px;
+  font-size: 1.2em;
+  color: rgba(117, 117, 117, 0.726);
+}
+.easy_useful__title_and_txt p{
+  font-size: 18px;
+  color: rgba(117, 117, 117, 0.726);
+
+}
+.easy_useful__blocks{
+  width: 90%;
+ 
+  margin: 0 auto;
+  min-height: 240px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.easy_useful_block{
+  display: inline-block;
+  
+  width: auto;
+  
+  
+}
+
+.easy_useful_block p{
+  font-size: 15px;
+  line-height: 1.5;
+}
+.easy_useful_block h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.easy_useful__getStarted{
+  margin: 30px auto;
+  background-color: rgb(29, 233, 182);
+  border: 2px solid rgb(29, 233, 182);
+  color: #FAFAFA;
+  padding: 12px 20px;
+  font-size: 15px;
+  border-radius: 8px;
+  appearance: none;
+  outline: none;
+}
+  .burger{
+    display: none;
+    cursor: pointer;
+  }
+  .burger div{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+  .signIn_signUp{
+      display: block;
+      display: flex;
+      width: auto;
+      
+     
+  }
+
+  .signIn, .signUp{
+      font-size: 14px;
+      display: inline-block;
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 5px 17px 5px 17px;
+      margin-right: 20px;
+  }
+  
+  .title_and_txt_and_buttons{
+    margin-top: 160px;
+    text-align: center;
+    display: block;
+  }
+  .title_and_txt_and_buttons p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  .buttons{
+    margin-top: 40px;
+  }
+  .title_and_txt_and_buttons button{
+    appearance: none;
+  background: none;
+  outline: none;
+  padding: .9rem 1.3rem;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.5s ease;
+  font-family: "Raleway";
+  box-shadow: 4px 6px 5px rgba(0,0,0,0.2);
+  }
+  
+  .title_and_txt_and_buttons .button1{
+    background-color: rgb(6, 30, 55);
+    border: 3px solid black;
+    margin-right: 25px;
+  }
+  .title_and_txt_and_buttons .button2{
+    background-color: white;
+    border: 3px solid white;
+    color: black;
+  }
+  .video{
+    text-align: center;
+    display: block;
+    margin-top: 160px;
+    
+    
+  }
+  iframe{
+    width: 80%;
+    height: 300px;
+  }
+  .belowNavbar{
+    
+    width: 90%;
+    margin: 0 auto;
+  }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    body{
+      overflow-x: hidden;
+
+    }
+    /*numbers*/
+.numbers{
+  width: 100%;
+  min-height: 150px;
+  color: black;
+ 
+  color: #FAFAFA;
+  font-weight: 800;
+  text-align: center;
+  
+}
+.numbers>div{
+  display: block;
+  align-items: center;
+  text-align: center;
+  padding-left: 4%;
+
+  
+}
+.numbers img{
+  background-color: #FAFAFA;
+  width: 30px;
+  height: 30px;
+  
+
+  border-radius: 100%;
+  margin-right: 20px;
+  
+}
+.numbers__business{
+  background-color: rgb(128, 216, 255);
+  width: 100%;
+
+}
+.numbers__downloads{
+  background-color: rgb(137, 177, 255);
+  width: 100%;
+
+  
+}
+.numbers__installs{
+  background-color: rgb(179, 136, 255);
+  width: 100%;
+
+
+}
+.numbers__users{
+  background-color: rgb(234, 128, 252);
+  width: 100%;
+
+
+
+}
+    
+    .easy_useful__getStarted{
+      margin: 30px auto;
+      background-color: rgb(29, 233, 182);
+      border: 2px solid rgb(29, 233, 182);
+      color: #FAFAFA;
+      padding: 12px 20px;
+      font-size: 15px;
+      border-radius: 8px;
+      appearance: none;
+      outline: none;
+    }
+    .easy_useful{
+      min-height: 800px;
+      text-align: center;
+      font-family: "Raleway", sans-serif;
+      color: black;
+    }
+    .easy_useful__title_and_txt{
+      margin: 90px auto;
+      width: 80%;
+      line-height: 1.4;
+    }
+    .easy_useful__title_and_txt h2{
+      margin: 15px;
+      font-size: 2em;
+    }
+    .easy_useful__title_and_txt h4{
+      margin: 15px;
+      font-size: 1.2em;
+      color: rgba(117, 117, 117, 0.726);
+    }
+    .easy_useful__title_and_txt p{
+      font-size: 20px;
+      color: rgba(117, 117, 117, 0.726);
+    
+    }
+    .easy_useful__blocks{
+      width: 90%;
+     
+      margin: 0 auto;
+      min-height: 240px;
+      display: block;
+      justify-content: space-between;
+    
+    }
+    .easy_useful_block{
+      display: inline-block;
+      margin-bottom: 20px;
+      width: auto;
+      
+      
+    }
+    
+    .easy_useful_block p{
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .easy_useful_block h4{
+      font-size: 20px;
+      margin-bottom: 15px;
+    }
+
+
+    .signIn_signUp{
+        display: none;
+    }
+    .video{
+      height: 400px;
+      width: 100%;
+    }
+    iframe{
+      height: 200px;
+      
+    }
+    .nav-links{
+      position: fixed;
+      right: 0px;
+      background-color: rgb(48, 226, 194);
+      top: 8vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      transform: translateX(100%);
+      transition: transform 0.5s ease-in;
+  
+    }
+    .nav-links li{
+      opacity: 0;
+    }
+    .burger{
+      display: block;
+      z-index: 100;
+      position: relative;
+    }
+  
+  }
+  .nav-active{
+    transform: translateX(0);
+  }
+  
+  @keyframes navLinksFade {
+    from{
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to{
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+  
+  .toggle .line1{
+  transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  .toggle .line2{
+  opacity: 0;
+    }
+  .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+  
+      }
+  .nav-links a:hover{
+    color: black;
+    transition: 0.8s;
+  }
+  
